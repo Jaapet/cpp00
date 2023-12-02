@@ -6,7 +6,7 @@
 /*   By: ndesprez <ndesprez@student.42nice.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/01 17:25:00 by ndesprez          #+#    #+#             */
-/*   Updated: 2023/12/01 20:19:26 by ndesprez         ###   ########.fr       */
+/*   Updated: 2023/12/02 04:23:59 by ndesprez         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,12 +26,11 @@ private:
 	std::string	secret;
 	int			index;
 	std::string	slurp(std::string s) const;
-	std::string	shrink(std::string s, int i) const;
+	std::string	shrink(std::string s) const;
 public:
 	Contact();
 	~Contact();
-	void	initContact(void);
-	void	setIndex(int index);
+	void	initContact(int i);
 	void	displayLine(void);
 	void	displayCard(void);
 };

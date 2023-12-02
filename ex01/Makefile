@@ -6,11 +6,11 @@
 #    By: ndesprez <ndesprez@student.42nice.fr>      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/12/01 17:18:06 by ndesprez          #+#    #+#              #
-#    Updated: 2023/12/01 20:36:46 by ndesprez         ###   ########.fr        #
+#    Updated: 2023/12/02 03:40:55 by ndesprez         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-SRCS = Contact.cpp main.cpp #phonebook.cpp
+SRCS = Contact.cpp main.cpp PhoneBook.cpp
 
 NAME = phonebook
 
